@@ -1,16 +1,16 @@
 export default {
-    name: 'user',
-    title: 'User',
+    name: 'comment',
+    title: 'Comment',
     type: 'document',
     fields : [
         {
-        name: 'userName',
-        title: 'UserName',
-        type: 'string'
+        name: 'postedBy',
+        title: 'PostedBy',
+        type: 'postedBy'
         },
         {
-            name: 'image',
-            title: 'Image',
+            name: 'comment',
+            title: 'Comment',
             type: 'string'
         },
     ]

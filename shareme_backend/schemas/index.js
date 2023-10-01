@@ -1,7 +1,7 @@
-import user from './user'
-import user from './pin'
-import user from './comment'
-import user from './postedBy'
-import user from './save'
+import user from './user';
+import pin from './pin';
+import comment from './comment';
+import postedBy from './postedBy';
+import save from './save';
 
-export const schemaTypes = [user,pin,comment,postedBy,SVGPathElement]
+export const schemaTypes = [user,pin,comment,postedBy,save]
