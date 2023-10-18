@@ -6,7 +6,7 @@ import shareVideo from '../assets/share.mp4';
 import logo from '../assets/logowhite.png';
 
 import { client } from '../client'
-
+import { gapi } from "gapi-script";
 const Login = () => {
   const navigate = useNavigate();
   
